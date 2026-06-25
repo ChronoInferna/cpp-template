@@ -2,9 +2,9 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMake, cmake_layout, CMakeDeps
 
 
-class mypkgRecipe(ConanFile):
-    name = "mypkg"
-    version = "0.1"
+class titleRecipe(ConanFile):  # TODO
+    name = "title"  # TODO
+    version = "0.1.0"
     settings = "os", "compiler", "build_type", "arch"
 
     def layout(self):
