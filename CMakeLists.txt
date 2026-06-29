@@ -42,7 +42,7 @@ set_target_properties(
     PROPERTIES VERIFY_INTERFACE_HEADER_SETS ${PROJECT_IS_TOP_LEVEL}
 )
 
-add_subdirectory(include/boegenxx)
+add_subdirectory(include/title) # TODO
 
 # Install the library
 install(
